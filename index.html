@@ -408,10 +408,19 @@
  </footer>
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button data-modal-close class="button-modal-closed"><img src="./images/closemodal.svg" alt="cross" width="30px" height="30px"></button>
+        <button data-modal-close class="button-modal-closed">
+            <svg alt="cross" width=30 height=30>
+                <use href="./images/icons.svg#icon-closemodal">                
+
+                </use>
+            </svg>
+        </button>
     </div>
 </div>
  
 <script src="./js/modal.js"></script>
 </body>
 </html>
+
+
+<!-- <img src="./images/closemodal.svg" alt="cross" width="30px" height="30px"> -->
